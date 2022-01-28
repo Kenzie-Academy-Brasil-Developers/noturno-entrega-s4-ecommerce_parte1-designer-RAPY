@@ -1,0 +1,47 @@
+/* Iniciado para @Screen = 420px */
+
+
+/* ------ HEADER -----------*/
+
+.topo_header {}
+
+.topo_header h1 {}
+
+.topo_header.menu {}
+
+.topo_header.menu img {
+    width: 75px;
+}
+
+.topo_header.menu__todos {
+    display: none;
+}
+
+.topo_header.menu__todos li {}
+
+
+/* ------ VITRINE -----------*/
+
+
+/* ------ CARD -----------*/
+
+
+/* ------ PESQUISA -----------*/
+
+
+/* ------ CARRINHO -----------*/
+
+
+/* Media Queries - Desktop */
+
+@media screen and (min-width: 800px) {
+    /* ------ HEADER -----------*/
+    .topo_header {}
+    .topo_header h1 {}
+    .topo_header.menu {}
+    .topo_header.menu img {
+        display: none;
+    }
+    .topo_header.menu__todos {}
+    .topo_header.menu__todos li {}
+}
