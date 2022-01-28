@@ -3,10 +3,7 @@
 
 /* ------ FONTS -----------*/
 
-
-/*@import url(
-*/
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 /*------ VARIAVEIS -----------*/
 
@@ -26,9 +23,13 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--grey-0);
+    font-family: "Inter";
+    font-weight: 700;
 }
 
-.topo_header h1 {}
+.topo_header h1 {
+    margin-left: 118px;
+}
 
 .topo_header .menu {}
 
@@ -70,6 +71,16 @@
     .topo_header .menu__todos {
         display: flex;
         flex-direction: row;
+        color: var(--grey-50);
+        font-weight: 400;
+        margin-right: 10px;
     }
-    .topo_header .menu__todos li {}
+    .topo_header .menu__todos li {
+        font-family: "Inter";
+        font-weight: 600;
+        padding: 10px;
+    }
+    .topo_header .menu__todos li:hover {
+        color: var(--grey-100);
+    }
 }
