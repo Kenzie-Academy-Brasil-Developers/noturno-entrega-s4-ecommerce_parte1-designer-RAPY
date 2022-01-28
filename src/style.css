@@ -10,7 +10,13 @@
 
 /*------ VARIAVEIS -----------*/
 
-:root {}
+:root {
+    --Color-primary: #2E245E;
+    --Color-secundary: #6B54DE;
+    --grey-100: #333333;
+    --grey-50: #828282;
+    --grey-0: #f5f5f5;
+}
 
 
 /* ------ HEADER -----------*/
@@ -19,6 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--grey-0);
 }
 
 .topo_header h1 {}
