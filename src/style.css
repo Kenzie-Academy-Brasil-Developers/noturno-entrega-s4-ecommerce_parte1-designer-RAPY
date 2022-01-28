@@ -25,6 +25,7 @@
     background-color: var(--grey-0);
     font-family: "Inter";
     font-weight: 700;
+    font-size: 24px;
 }
 
 .topo_header h1 {
@@ -35,6 +36,7 @@
 
 .topo_header .menu img {
     width: 30px;
+    margin-right: 117px;
 }
 
 .topo_header {}
@@ -63,7 +65,10 @@
 @media screen and (min-width: 800px) {
     /* ------ HEADER -----------*/
     .topo_header {}
-    .topo_header h1 {}
+    .topo_header h1 {
+        font-size: 30px;
+        margin-left: 118px;
+    }
     .topo_header .menu {}
     .topo_header .menu img {
         display: none;
@@ -73,11 +78,12 @@
         flex-direction: row;
         color: var(--grey-50);
         font-weight: 400;
-        margin-right: 10px;
+        margin-right: 117px;
     }
     .topo_header .menu__todos li {
         font-family: "Inter";
         font-weight: 600;
+        font-size: 16px;
         padding: 10px;
     }
     .topo_header .menu__todos li:hover {
