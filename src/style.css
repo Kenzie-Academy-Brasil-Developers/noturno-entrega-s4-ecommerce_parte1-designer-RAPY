@@ -19,17 +19,17 @@
 
 .topo_header h1 {}
 
-.topo_header.menu {}
+.topo_header .menu {}
 
-.topo_header.menu img {
+.topo_header .menu img {
     width: 75px;
 }
 
-.topo_header.menu__todos {
+.topo_header .menu__todos {
     display: none;
 }
 
-.topo_header.menu__todos li {}
+.topo_header .menu__todos li {}
 
 
 /* ------ VITRINE -----------*/
@@ -50,10 +50,10 @@
     /* ------ HEADER -----------*/
     .topo_header {}
     .topo_header h1 {}
-    .topo_header.menu {}
-    .topo_header.menu img {
+    .topo_header .menu {}
+    .topo_header .menu img {
         display: none;
     }
-    .topo_header.menu__todos {}
-    .topo_header.menu__todos li {}
+    .topo_header .menu__todos {}
+    .topo_header .menu__todos li {}
 }
