@@ -57,26 +57,76 @@
     align-items: flex-start;
 }
 
+.vitrine .cards_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 65%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
 /* ------ CARD -----------*/
 
-.cards_conteiner {}
+.card {
+    margin-top: 18px;
+}
+
+.card img {}
+
+.card p {
+    width: 269px;
+}
+
+.card h3 {}
+
+.card a {}
 
 
 /* ------ PESQUISA -----------*/
 
-.pesquisa {}
+.pesquisa {
+    margin-top: 27px;
+}
 
-.pesquisa text {}
+.pesquisa .pesquisa_busca {
+    color: var(--grey-50);
+    box-shadow: none;
+    border: none;
+    background-color: var(--grey-0);
+    width: 246px;
+    height: 50px;
+}
 
-.pesquisa button {}
+.pesquisa .button {
+    background-color: var(--Color-secundary);
+    color: #ffffff;
+    border: none;
+    width: 96px;
+    height: 50px;
+}
 
 
 /* ------ CARRINHO -----------*/
 
 .carrinho {}
 
-.carro_status {}
+.titulo_carro {
+    background-color: var(--Color-secundary);
+    color: #ffffff;
+    text-align: center;
+    width: 347px;
+    height: 50px;
+}
+
+.carro_status {
+    text-align: center;
+    width: 347px;
+    height: 344px;
+    background-color: var(--grey-0);
+    vertical-align: center;
+}
 
 
 /* Media Queries - Desktop */
