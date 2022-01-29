@@ -1,4 +1,4 @@
-/* Iniciado para @Screen = 420px */
+/* Iniciado para @Screen = 500px */
 
 
 /* ------ FONTS -----------*/
@@ -29,17 +29,19 @@
 }
 
 .topo_header h1 {
-    margin-left: 118px;
+    margin-left: 50px;
 }
 
 .topo_header .menu {}
 
 .topo_header .menu img {
     width: 30px;
-    margin-right: 117px;
+    margin-right: 79px;
 }
 
-.topo_header {}
+.topo_header .menu img:hover {
+    cursor: pointer;
+}
 
 .menu__todos {
     display: none;
@@ -71,11 +73,29 @@
 
 .card {
     margin-top: 18px;
+    border: 2px solid var(--grey-0);
+    width: 296px;
 }
 
-.card img {}
+.card .baixo {
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.card:hover {
+    border: 2px solid var(--Color-primary);
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    background-color: var(--grey-0);
+    width: 100%;
+    height: max-content;
+}
 
 .card .tipo {
+    line-height: 26px;
     width: 73px;
     height: 26px;
     font-size: 12px;
@@ -90,6 +110,12 @@
     color: var(--grey-50)
 }
 
+.card .valor {
+    color: var(--Color-primary);
+    font-weight: 700;
+    margin: 15px 0;
+}
+
 .card h3 {
     font-size: 18px;
     font-family: "Inter";
@@ -99,6 +125,12 @@
 .card a {
     font-weight: 500;
     color: var(--grey-50);
+    text-decoration: underline;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: var(--Color-secundary);
 }
 
 
@@ -115,6 +147,7 @@
     background-color: var(--grey-0);
     width: 246px;
     height: 50px;
+    padding-left: 10px;
 }
 
 .pesquisa .button {
@@ -123,6 +156,11 @@
     border: none;
     width: 96px;
     height: 50px;
+}
+
+.pesquisa .button:hover {
+    color: var(--Color-primary);
+    cursor: pointer;
 }
 
 
@@ -136,9 +174,14 @@
     text-align: center;
     width: 347px;
     height: 50px;
+    line-height: 50px;
 }
 
 .carro_status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     width: 347px;
     height: 344px;
@@ -175,5 +218,6 @@
     }
     .topo_header .menu__todos li:hover {
         color: var(--grey-100);
+        cursor: pointer;
     }
 }
