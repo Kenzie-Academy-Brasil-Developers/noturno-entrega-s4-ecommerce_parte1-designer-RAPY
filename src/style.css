@@ -50,14 +50,33 @@
 
 /* ------ VITRINE -----------*/
 
+.vitrine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 
 /* ------ CARD -----------*/
+
+.cards_conteiner {}
 
 
 /* ------ PESQUISA -----------*/
 
+.pesquisa {}
+
+.pesquisa text {}
+
+.pesquisa button {}
+
 
 /* ------ CARRINHO -----------*/
+
+.carrinho {}
+
+.carro_status {}
 
 
 /* Media Queries - Desktop */
