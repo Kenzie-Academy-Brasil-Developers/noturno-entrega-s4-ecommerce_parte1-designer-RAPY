@@ -1,0 +1,223 @@
+/* Iniciado para @Screen = 500px */
+
+
+/* ------ FONTS -----------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/*------ VARIAVEIS -----------*/
+
+:root {
+    --Color-primary: #2E245E;
+    --Color-secundary: #6B54DE;
+    --grey-100: #333333;
+    --grey-50: #828282;
+    --grey-0: #f5f5f5;
+}
+
+
+/* ------ HEADER -----------*/
+
+.topo_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grey-0);
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.topo_header h1 {
+    margin-left: 50px;
+}
+
+.topo_header .menu {}
+
+.topo_header .menu img {
+    width: 30px;
+    margin-right: 79px;
+}
+
+.topo_header .menu img:hover {
+    cursor: pointer;
+}
+
+.menu__todos {
+    display: none;
+}
+
+.topo_header .menu__todos li {}
+
+
+/* ------ VITRINE -----------*/
+
+.vitrine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.vitrine .cards_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 65%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* ------ CARD -----------*/
+
+.card {
+    margin-top: 18px;
+    border: 2px solid var(--grey-0);
+    width: 296px;
+}
+
+.card .baixo {
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.card:hover {
+    border: 2px solid var(--Color-primary);
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    background-color: var(--grey-0);
+    width: 100%;
+    height: max-content;
+}
+
+.card .tipo {
+    line-height: 26px;
+    width: 73px;
+    height: 26px;
+    font-size: 12px;
+    text-align: center;
+    background-color: var(--Color-primary);
+    color: #ffffff;
+}
+
+.card p {
+    width: 269px;
+    font-weight: 400;
+    color: var(--grey-50)
+}
+
+.card .valor {
+    color: var(--Color-primary);
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.card a {
+    font-weight: 500;
+    color: var(--grey-50);
+    text-decoration: underline;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: var(--Color-secundary);
+}
+
+
+/* ------ PESQUISA -----------*/
+
+.pesquisa {
+    margin-top: 27px;
+}
+
+.pesquisa .pesquisa_busca {
+    color: var(--grey-50);
+    box-shadow: none;
+    border: none;
+    background-color: var(--grey-0);
+    width: 246px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.pesquisa .button {
+    background-color: var(--Color-secundary);
+    color: #ffffff;
+    border: none;
+    width: 96px;
+    height: 50px;
+}
+
+.pesquisa .button:hover {
+    color: var(--Color-primary);
+    cursor: pointer;
+}
+
+
+/* ------ CARRINHO -----------*/
+
+.carrinho {}
+
+.titulo_carro {
+    background-color: var(--Color-secundary);
+    color: #ffffff;
+    text-align: center;
+    width: 347px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.carro_status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 347px;
+    height: 344px;
+    background-color: var(--grey-0);
+    vertical-align: center;
+}
+
+
+/* Media Queries - Desktop */
+
+@media screen and (min-width: 800px) {
+    /* ------ HEADER -----------*/
+    .topo_header {}
+    .topo_header h1 {
+        font-size: 30px;
+        margin-left: 118px;
+    }
+    .topo_header .menu {}
+    .topo_header .menu img {
+        display: none;
+    }
+    .topo_header .menu__todos {
+        display: flex;
+        flex-direction: row;
+        color: var(--grey-50);
+        font-weight: 400;
+        margin-right: 117px;
+    }
+    .topo_header .menu__todos li {
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .topo_header .menu__todos li:hover {
+        color: var(--grey-100);
+        cursor: pointer;
+    }
+}
