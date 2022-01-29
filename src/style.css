@@ -90,8 +90,8 @@ picture {
     display: flex;
     justify-content: center;
     background-color: var(--grey-0);
-    width: 100%;
-    height: max-content;
+    width: 294px;
+    height: 158px;
 }
 
 .card .tipo {
